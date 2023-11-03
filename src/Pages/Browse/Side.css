@@ -1,0 +1,59 @@
+.conten{
+    display: flex;
+    margin-bottom: 30px;
+    
+}
+
+.infor{
+    padding: calc(var(--padding-primary)/4);
+}
+
+
+h6{
+    color:#f4f4f4;
+}
+
+.img-do img{
+    width: 100%;
+    margin-top: 10px;
+    border-radius: var(--border-radius-primary);
+}
+
+.icSS{
+    color:yellow
+}
+
+.icDD{
+    margin-left: 10px;
+    color: powderblue;
+}
+
+.download{
+    padding:calc(var(--padding-primary)/2);
+    margin: calc(var(--margin-primary)/4);
+}
+
+.download a {
+    font-size: 24px; 
+  }
+  
+  .conten:hover{
+    transform: scale(1.1);
+  }
+
+
+@media (max-width: 768px) {
+    .streami
+    {
+      flex-direction: column; 
+    }
+  
+    .col-lg-8 {
+      width: 100%;
+    }
+    
+    .col-lg-4 {
+      width: 100%; 
+      margin-top: 2rem; 
+    }
+  }

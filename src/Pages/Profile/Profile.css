@@ -1,0 +1,211 @@
+.body{
+    background-color: red !important;
+}
+
+.prof-container {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+
+  }
+  .pr-co{
+    border-bottom: 3px solid var(--color-darktest);
+
+  }
+  
+  .photo{
+    border-radius: 80px;
+    margin-right: 40px;
+    margin-bottom: 50px;
+  }
+  
+  .info-container {
+    width: 100%; 
+    padding-bottom: 50px;
+    
+    
+
+  }
+  
+  .status {
+    margin-top: 10px;
+    background-color: var(--color-primary);
+    text-align: center;
+    width: 120px;
+    height: 30px;
+    border: 1px solid var(--color-dark);
+    border-radius:200px
+
+}
+  
+  .title {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-weight: var(--font-weight-bold);
+    font-family: var( --font-familt-primary);
+  }
+  
+  .description {
+    margin-bottom: 50px;
+}
+  
+  .side-container {
+    width: 50%;
+    background-color: rgba(44, 43, 43, 0.4);
+    border-radius: 50px;
+    
+
+    justify-content: space-between; 
+  }
+  
+  .side-text {
+    display: flex;
+    justify-content: space-between; 
+    width: 90%; 
+    margin: 15px;
+    font-weight: var(--font-weight-normal);
+    font-family: var(--font-familt-primary);
+
+  }
+
+
+  .btn-prima{
+    margin-top: 20px;
+    background-color: var(--color-dark);
+    width: 100%;
+    border: 1px solid var(--color-primary);
+    font-size: 20px;
+    font-weight: var(---font-weight-bold);
+    color: var(--color-primary);
+    border-radius: var(--border-radius-primary);
+    padding: 12px 30px;
+    letter-spacing: 0.5px;
+    transition: all .3s;
+}
+.btn-prima:hover{
+    background-color: var(--color-light);
+}
+
+
+  
+  .side-span {
+    color:var(--color-primary);
+    text-align: right;
+    font-weight: var(--font-weight-normal);
+}
+  
+  @media (max-width: 768px) {
+    .prof-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .status{
+        margin-top: 20px;
+        margin-left: 135px;
+    }
+    
+    .info-container {
+        width: 100%; /* استخدم العرض الكامل للمحتوى على الشاشات الصغيرة */
+        text-align: center;
+      }
+
+      .side-container {
+        width: 100%;
+        text-align: center;
+        flex-direction: column; /* ترتيب العناصر عموديًا على الشاشات الصغيرة */
+      }
+
+      .side-text {
+        margin: 8px 0;
+        flex-direction: row; /* عند الترتيب العمودي على الشاشات الصغيرة، استعمل ترتيب الصفوف */
+        justify-content: space-between;   
+       }
+
+    .ButtonSecondarr{
+        padding-bottom: 50px;
+        margin-right:60px;
+    }
+
+    
+    
+  }
+
+
+
+
+  /*       Clips    */
+
+  .p-clip{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .tit-cl-h{
+    text-decoration: underline;
+  }
+.s-t-c{
+    color: var(--color-primary);
+}
+  
+
+.card-clip {
+    position: relative;
+    background-color: var(--color-darktest);
+    border-radius: var(--border-radius-primary);
+    padding: calc(var(--padding-primary) / 2);
+    margin: calc(var(--margin-primary) / 5);
+}
+
+.photo-clip {
+    width: 100%;
+    border-radius: var(--border-radius-primary);
+}
+
+.info-clip {
+    text-align: center;
+}
+
+.card-clip > div {
+    position: relative;
+}
+
+.card-clip a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-48%, -48%);
+    background-color: #fff;
+    color: var(--color-primary);
+    font-size: 12px;
+    padding: 20px; /* تغيير الهامش لزيادة حجم الأيقونة */
+    border-radius: 70px; /* لجعل الخلفية دائرية */
+    transition: transform 0.2s ease; /* لإضافة تأثير تكبير عند التحويل */
+
+}
+
+
+
+.card-clip a:hover {
+    transform: translate(-50%, -50%) scale(1.1); /* تكبير الأيقونة عند التحويل */
+    background-color: var(--color-darktest);
+}
+
+.title-clip{
+    margin-top: 10px;
+    font-weight: var(--font-weight-bold);
+}
+.fa-eye{
+    color:var(--color-primary);
+}
+
+.bt-cl{
+    margin-top: 50px;
+text-align: center;
+}
+
+.card-clip a.button {
+    font-size: 50px !important; /* تكبير حجم الزرار */
+}

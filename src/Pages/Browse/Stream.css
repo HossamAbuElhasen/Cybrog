@@ -1,0 +1,37 @@
+.stream-item{
+    width: 100%;
+}
+
+.card-wrappers{
+    width: 100%;
+    padding:calc(var(--padding-primary)/3) ;
+    border-radius:calc(var(--border-radius-primary));
+}
+
+.img-str{
+    border-radius: var(--border-radius-primary);
+}
+
+
+.card-wrappers:hover{
+    transform: scale(1.1);
+}
+
+.item-contents{
+    display: flex;
+}
+
+.imgli {
+    margin-top: 20px;
+    width: 50px; /* تعيين عرض ثابت */
+    height: 50px; /* تعيين ارتفاع ثابت */
+    border-radius: 50%; /* جعل الصورة دائرية */
+}
+
+
+.item-titles{
+    color: var(--color-primary);
+    font-weight: var(--font-weight-bold);
+    font-family: var(--font-familt-primary);
+    padding-top: 10px;
+}

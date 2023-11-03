@@ -1,0 +1,38 @@
+.button a{
+    font-size: 14px;
+    color: var(--color-light);
+    border-radius: var(--border-radius-primary);
+    padding: 12px 30px;
+    letter-spacing: 0.5px;
+    transition: all .3s;
+}
+
+.ButtonPrimary a{
+    background-color: var(--color-primary);
+}
+
+.ButtonPrimary a:hover{
+    background-color: var(--color-dark);
+    color: var(--color-primary);
+}
+
+.ButtonSecondarr a{
+    border: 1px solid var(--color-primary);
+    
+}
+
+@media screen and (max-width: 768px) {
+
+     .ButtonSecondarr {
+        margin-top: 10px;
+      margin-left:70px ;
+    }
+    
+  }
+
+.ButtonSecondarr a:hover{
+    border: 1px solid var(--color-light);
+    background-color: var(--color-primary);
+
+    color: var(--color-darkest);
+}

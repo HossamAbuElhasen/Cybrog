@@ -1,0 +1,5 @@
+export {default as Header} from '../section/header/Header'
+export {default as Footer} from '../section/footer/Footer'
+export {default as Hero} from '../section/Hero/Hero'
+export {default as Pouplars} from './Pouplars/Pouplars'
+export  {default as Gaming} from './Gaming/Gaming'

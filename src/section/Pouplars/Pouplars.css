@@ -1,0 +1,46 @@
+.most-poular-items{
+    display:  flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+       
+}
+
+
+.btn-prima{
+    margin-top: 20px;
+    background-color: var(--color-dark);
+    width: 100%;
+    border: 1px solid var(--color-primary);
+    font-size: 20px;
+    font-weight: var(---font-weight-bold);
+    color: var(--color-primary);
+    border-radius: var(--border-radius-primary);
+    padding: 12px 30px;
+    letter-spacing: 0.5px;
+    transition: all .3s;
+}
+.btn-prima:hover{
+    background-color: var(--color-light);
+}
+
+h1{
+    font-weight: bold;
+    font-family:var(--font-familt-primary);
+
+}
+.under-line{
+    text-decoration: underline;
+}
+.heade{
+    color: var(--color-primary);
+}
+@media (max-width: 767px) {
+    .m-p-n{
+        margin-left: 25px;
+    }
+
+  }
+
+
+
+

@@ -1,0 +1,103 @@
+
+.navbar {
+  background-color: var(--color-darktest);
+  color: var(--color-light);  
+  position: fixed;
+  top: 0;
+left: 0;
+right: 0;
+z-index: 100;
+min-height: 90px;
+
+}
+
+.navbar-nav .nav-item {
+  padding: 10px 20px; 
+}
+
+.navbar-brand img {
+  width: 150px; /* حجم اللوجو بالعرض بالوحدة بكسل */
+}
+
+.navbar-links ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+
+.navbar-links ul li:last-child {
+  margin-right: 0;
+}
+
+.navbar-links ul li a {
+  text-decoration: none;
+  color: var(--color-light);
+  font-weight: bold;
+}
+
+.navbar-links ul li a:hover {
+  color: var(--color-primary) !important;
+}
+
+
+.form-group{
+  display: flex;
+}
+
+
+.form-control {
+  width: 200px; 
+  background-color: var(--color-darkest);
+  color: blue !important;
+
+
+}
+
+
+.search-box {
+  position: relative;
+  width: 200px; 
+  margin: 10px;
+}
+
+.search-box input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid var(--color-darktest);
+  font-size: 15px;
+  border-radius: calc(var(--border-radius-primary));
+  background-color: var(--color-dark);
+ 
+}
+
+.search-box i {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  color: #615e5e;
+  font-size: 20px;
+}
+
+.search-box input {
+  padding-right: 30px; /* زيادة المسافة من الجانب الأيمن لعرض الأيقونة */
+}
+
+
+.btn-primary{
+  background-color: var(--color-dark);
+  border-radius: calc(var(--border-radius-primary)/2);
+  border: 1px solid var(--color-dark);
+}
+
+.btn-primary:hover{
+  background-color: var(--color-dark);
+
+}
+
