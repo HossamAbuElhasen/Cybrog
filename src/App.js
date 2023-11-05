@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import { Container } from './component/index';
 import { Header, Footer } from './section/index';
-import { Home, Broswer, Profile, Details,Palestine } from './Pages';
+import { Home, Broswer, Profile, Details } from './Pages';
 import ScrollToTop from './ScrollToTop'; 
 
 const App = () => {
@@ -18,8 +18,6 @@ const App = () => {
           <Route path="/Broswer" element={<Broswer />} />
           <Route path="/Details" element={<Details />} />
           <Route path="/profile" element={<Profile />} />
-          <Route path="/Palestine" element={<Palestine />} />
-
         </Routes>
       </Container>
       <Footer />
@@ -28,5 +26,6 @@ const App = () => {
 }
 
 export default App;
+
 
 

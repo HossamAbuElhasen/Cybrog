@@ -1,9 +1,12 @@
-.most-poular-items{
-    display:  flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-       
-}
+
+
+    .most-poular-items {
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: center; 
+        align-items: center; 
+      }
+      
 
 
 .btn-prima{

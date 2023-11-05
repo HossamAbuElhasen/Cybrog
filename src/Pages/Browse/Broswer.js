@@ -28,9 +28,9 @@ const Browser = () => {
         <div className="row">
             <div className="col-lg-8">
                 <div className="sect col-lg-12">
-                    <Feature image={featured_02} title='Cs-Go' rate='9.5' download='9.7' />
-                    <Feature image={featured_03} title='Island' rate='8.6' download='7.6K' />
-                    <Feature image={featured_01} title='Gamzer' rate='7.9' download='8.8K' />
+                    <Feature image={featured_02} title='Cs-Go' rate='9' download='9.7' />
+                    <Feature image={featured_03} title='Island' rate='8' download='7.6K' />
+                    <Feature image={featured_01} title='Gamzer' rate='7' download='8.8K' />
                 </div>
               </div>
             <div className="col-lg-4">
@@ -40,34 +40,22 @@ const Browser = () => {
                     <Side image={game_02} title="CS-Go" category='Legendary'  rate='9.5' download='9.7' />
                     <Side image={game_03} title="Pubg" category='Battle Royale' rate='8.6' download='7.6K' />
                 </div>
-  
             </div>
         </div>
-
         <div className='titl'>
             <h1> <span className='under-line'>Most popular</span>  <span className='headee'>Live Stream </span>  </h1>
             </div>
         <div className='col-lg-12 str' >
-
             <div className='streami'>
                 <Stream image={stream_01} imgli={imgli_01} title="KenganC" pr="Just Talking With Fans"/>
                 <Stream image={stream_02} imgli={imgli_02} title=" LunaMa" pr="S-GO 36 Hours Live Stream"/>
                 <Stream image={stream_03} imgli={imgli_03} title="Areluwa" pr="Live Streaming  Morning"/>
                 <Stream image={stream_04}  imgli={imgli_04} title="GangTm" pr="Maybe Nathej Allnight "/>
-
             </div>
-
-
         </div>
-
-
-
-
-
     </div>
     );
 }
-
 export default Browser;
 
 

@@ -22,9 +22,17 @@ padding:calc(var(--padding-primary)/2)0;
     
 
 
+
+    
+
     @media screen and (max-width: 768px) {
       .gaming-libary-card {
         flex: 1 1 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 10px 0;
+        padding: var(--padding-primary) 0;
       }
       .gaming-libary-card ul {
         display: flex;
@@ -37,9 +45,11 @@ padding:calc(var(--padding-primary)/2)0;
         margin: 5px 0;
         text-align: center;
       }
-      .gaming-libary-card ButtonSecondarr {
-        margin-left: auto; /* سيحرك الزر إلى اليمين */
+      .ButtonSecondarr {
+        margin: 8px auto 0; 
+        text-align: center; 
       }
+      
       .img-itm{
         width: 150px;
         height: 150px;

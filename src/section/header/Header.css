@@ -16,7 +16,7 @@ min-height: 90px;
 }
 
 .navbar-brand img {
-  width: 150px; /* حجم اللوجو بالعرض بالوحدة بكسل */
+  width: 150px; 
 }
 
 .navbar-links ul {
@@ -86,7 +86,7 @@ min-height: 90px;
 }
 
 .search-box input {
-  padding-right: 30px; /* زيادة المسافة من الجانب الأيمن لعرض الأيقونة */
+  padding-right: 30px; 
 }
 
 

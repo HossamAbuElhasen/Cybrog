@@ -103,30 +103,27 @@
     }
     .status{
         margin-top: 20px;
-        margin-left: 135px;
+        margin-left: 70px;
     }
     
     .info-container {
-        width: 100%; /* استخدم العرض الكامل للمحتوى على الشاشات الصغيرة */
+        width: 100%; 
         text-align: center;
       }
 
       .side-container {
         width: 100%;
         text-align: center;
-        flex-direction: column; /* ترتيب العناصر عموديًا على الشاشات الصغيرة */
+        flex-direction: column; 
       }
 
       .side-text {
         margin: 8px 0;
-        flex-direction: row; /* عند الترتيب العمودي على الشاشات الصغيرة، استعمل ترتيب الصفوف */
+        flex-direction: row; 
         justify-content: space-between;   
        }
 
-    .ButtonSecondarr{
-        padding-bottom: 50px;
-        margin-right:60px;
-    }
+
 
     
     
@@ -180,16 +177,16 @@
     background-color: #fff;
     color: var(--color-primary);
     font-size: 12px;
-    padding: 20px; /* تغيير الهامش لزيادة حجم الأيقونة */
-    border-radius: 70px; /* لجعل الخلفية دائرية */
-    transition: transform 0.2s ease; /* لإضافة تأثير تكبير عند التحويل */
+    padding: 20px; 
+    border-radius: 70px; 
+    transition: transform 0.2s ease; 
 
 }
 
 
 
 .card-clip a:hover {
-    transform: translate(-50%, -50%) scale(1.1); /* تكبير الأيقونة عند التحويل */
+    transform: translate(-50%, -50%) scale(1.1); 
     background-color: var(--color-darktest);
 }
 
@@ -207,5 +204,5 @@ text-align: center;
 }
 
 .card-clip a.button {
-    font-size: 50px !important; /* تكبير حجم الزرار */
+    font-size: 50px !important; 
 }

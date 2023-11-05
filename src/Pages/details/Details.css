@@ -24,16 +24,15 @@
     background-color: #fff;
     color: var(--color-primary);
     font-size: 12px;
-    padding: 20px; /* تغيير الهامش لزيادة حجم الأيقونة */
-    border-radius: 70px; /* لجعل الخلفية دائرية */
-    transition: transform 0.2s ease; /* لإضافة تأثير تكبير عند التحويل */
-
+    padding: 20px; 
+    border-radius: 70px; 
+    transition: transform 0.2s ease; 
 }
 
 
 
 .img-con a:hover {
-    transform: translate(-50%, -50%) scale(1.1); /* تكبير الأيقونة عند التحويل */
+    transform: translate(-50%, -50%) scale(1.1); 
     background-color: var(--color-darktest);
 }
 

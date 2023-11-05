@@ -15,81 +15,74 @@ const Details = () => {
                 <img src={details_01} className='photo-detlis' alt='' />
                 <a href="https://www.youtube.com/watch?v=r1b03uKWk_M" target="_blank" rel="noreferrer"><FaPlay/><i class="fa fa-play"></i></a>
             </div>
-
         </div>
-
-
             <div className="col-lg-12 tit-dat">
                <h1> <span className='s-f'>FORTNITE </span>   <span className='s-dat'> DETAILS </span> </h1>
             </div>
-
             <div className='details-container'>
             <div className="container">
-  <div className="row">
-    <div className="col-lg-6">
-      <div className="det-info">
-        <div className="d-flex justify-content-between">
-          <h5>Fortnint</h5>
-          <div className="d-flex align-items-center">
-            <FaStar className="icS" />
-            <p className='f-de'>8.5</p>
-          </div>
+    <div className="row">
+        <div className="col-lg-6">
+        <div className="det-info">
+            <div className="d-flex justify-content-between">
+            <h5>Fortnint</h5>
+            <div className="d-flex align-items-center">
+                <FaStar className="icS" />
+                <p className='f-de'>8.5</p>
+            </div>
+            </div>
+            <div className="d-flex justify-content-between s-n-b">
+            <p>sandbox</p>
+            <div className="d-flex align-items-center">
+                <FaDownload className="icD" />
+                <p className='f-de'>10 k</p>
+            </div>
+            </div>
         </div>
-        <div className="d-flex justify-content-between s-n-b">
-          <p>sandbox</p>
-          <div className="d-flex align-items-center">
-            <FaDownload className="icD" />
-            <p className='f-de'>10 k</p>
-          </div>
         </div>
-      </div>
-    </div>
-    <div className="col-lg-6">
-      <div className="det-ic">
-        <div className="row">
-          <div className="col-3">
-            <div className="text-center">
-              <FaStar className="icS" />
-              <p>8.5</p>
+        <div className="col-lg-6">
+        <div className="det-ic">
+            <div className="row">
+            <div className="col-3">
+                <div className="text-center">
+                <FaStar className="icS" />
+                <p>8.5</p>
+                </div>
             </div>
-          </div>
-          <div className="col-3">
-            <div className="text-center">
-              <FaDownload className="icD" />
-              <p>6k</p>
+            <div className="col-3">
+                <div className="text-center">
+                <FaDownload className="icD" />
+                <p>6k</p>
+                </div>
             </div>
-          </div>
-          <div className="col-3">
-            <div className="text-center">
-              <FaHdd className="icH" />
-              <p>2GB</p>
+            <div className="col-3">
+                <div className="text-center">
+                <FaHdd className="icH" />
+                <p>2GB</p>
+                </div>
             </div>
-          </div>
-          <div className="col-3">
-            <div className="text-center">
-              <FaGamepad className="icG" />
-              <p>2k</p>
+            <div className="col-3">
+                <div className="text-center">
+                <FaGamepad className="icG" />
+                <p>2k</p>
+                </div>
             </div>
-          </div>
+            </div>
         </div>
-      </div>
+        </div>
     </div>
-  </div>
-  <div className="row">
-    <div className="col-md-4 mb-3">
-      <img src={details_1} className="img-det mx-auto" alt="" />
+    <div className="row">
+        <div className="col-md-4 mb-3">
+        <img src={details_1} className="img-det mx-auto" alt="" />
+        </div>
+        <div className="col-md-4 mb-3">
+        <img src={details_2} className="img-det mx-auto" alt="" />
+        </div>
+        <div className="col-md-4 mb-3">
+        <img src={details_3} className="img-det mx-auto" alt="" />
+        </div>
     </div>
-    <div className="col-md-4 mb-3">
-      <img src={details_2} className="img-det mx-auto" alt="" />
     </div>
-    <div className="col-md-4 mb-3">
-      <img src={details_3} className="img-det mx-auto" alt="" />
-    </div>
-  </div>
-</div>
-
-
-
   <div className='row'>
     <div className='col-md-12 txt-det'>
       <p className='p-d'>
@@ -106,15 +99,6 @@ const Details = () => {
     </div>
   </div>
 </div>
-
-
-
-
-
-
-
-
-      
     </>
   )
 }

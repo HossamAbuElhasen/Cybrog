@@ -11,19 +11,11 @@ const Stream = (props) => {
                     <ul>
                         <li><h5 className='item-titles'>{props.title}</h5></li>
                         <li>  <p>{props.pr}</p></li>
-
                     </ul>
-
-
                 </div>
-            </div>  
-                 
-           
-        
+            </div>         
     </div>
-    
 </div>    
-
   )
 }
 
